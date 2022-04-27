@@ -1,0 +1,172 @@
+Regex for SocialMedia links
+^(https?:\/\/)?((www\.)?facebook\.com\/pages\/video\?v=([\w-]{11}))
+http://facebook.com/pages/video?v=dQw4w9WgXcQ
+
+
+^(https?:\/\/)?((www\.)?facebook\.com)?(\/pages)?(\/video\?)
+http://facebook.com/pages/video?
+
+
+
+Youtube channel
+^(https?:\/\/)?((www\.)?youtube\.com\/channel\/([\w-]{24}))
+https://www.youtube.com/channel/UC4gdWsQXjAxsvFQmomWhk6g
+
+Youtube Video Url
+^(https?:\/\/)?((www\.)?youtube\.com\/watch\?v=([\w-]{11}))
+https://www.youtube.com/watch?v=HE7zhCB8FWc
+
+Youtube Video Share Link
+^(https?:\/\/)?((www\.)?youtu\.be\/([\w-]{11}))
+http://youtu.be/HE7zhCB8FWc
+
+
+Pinterest Follower 3
+^(https?:\/\/)?((www\.)?pinterest\.com\/[A-Za-z0-9-]+(\/following)?\/?)
+https://www.pinterest.com/cesarcarrera737/following/
+
+Pinterest Follower 2
+^(https?:\/\/)?((www\.)?pinterest\.com\/[A-Za-z0-9-]+(\/following)?\/?)
+https://www.pinterest.com/cesarcarrera737/following/
+
+Pinterest Follower 1
+^(https?:\/\/)?((www\.)?pinterest\.com\/[A-Za-z0-9-]+(\/following\/)?)
+https://www.pinterest.com/cesarcarrera737/following
+
+
+Pinterest Post
+^(https?:\/\/)?((www\.)?pinterest\.com\/pin\/([\w-]{18})\/)
+https://www.pinterest.com/pin/411023903463989174/
+
+
+
+Instagram Page
+^(https?:\/\/)?((www\.)?instagram\.com\/[A-Za-z0-9-]+\/?)
+http://instagram.com/MrPimpGoodGame
+
+Instagram Post
+^(https?:\/\/)?((www\.)?instagram\.com\/p\/([\w-]{10})?\/?)
+http://instagram.com/p/v1Tyyom6Og/
+
+
+
+vine video url
+^(https?:\/\/)?((www\.)?vine\.co\/v\/([A-Za-z0-9]){11})
+https://vine.co/v/O1TvFELquFe
+
+
+vimeo video url
+^(https?:\/\/)?((www\.)?vimeo\.com\/([0-9]+){8})
+http://vimeo.com/36612268
+
+vimeo Channels url
+^(https?:\/\/)?((www\.)?vimeo\.com\/channels\/[A-Za-z0-9-]+)
+http://vimeo.com/channels/sencha
+
+soundcloud song play/Download url
+^(https?:\/\/)?((www\.)?soundcloud\.com\/[A-Za-z0-9-]+\/[A-Za-z0-9-]+)
+https://soundcloud.com/smart-khakwani/na-kr-deewana-slow-version-3-3
+
+Twitter tweet Url
+^(https?:\/\/)?((www\.)?twitter\.com\/[A-Za-z0-9-]+\/status\/([\w-]{18})\/?)
+https://twitter.com/coindesk/status/542604759291944960/
+
+Twitter Page Url
+^(https?:\/\/)?((www\.)?twitter\.com\/[A-Za-z0-9-]+\/?)
+https://twitter.com/coindesk
+
+
+facebook Post
+^(http(s)?:\/\/)?((www\.)?facebook\.com\/[A-Za-z0-9]+\/posts\/([A-Za-z0-9]){15})
+https://www.facebook.com/UrduRecipes/posts/6989587068257872
+
+
+facebook Page
+^(http(s)?:\/\/)?((www\.)?facebook\.com\/([A-Za-z0-9_-]+))
+https://www.facebook.com/FunnyPakistani
+
+
+http(s)?://([\w-]+\.)+[\w-]+(/[\w- ./?%&=]*)?
+http://www.dailymotion.com/UrduITacademy/test.aspx
+
+dailymotion Channel
+^(https?:\/\/)?((www\.)?dailymotion\.com\/([A-Za-z0-9_-]+))
+http://www.dailymotion.com/UrduITacademy
+
+
+dailymotion Video
+^(https?:\/\/)?((www\.)?dailymotion\.com\/video\/([A-Za-z0-9_-]+))
+http://www.dailymotion.com/video/xxw52s_urduit-php-basic-lecture-1_tech
+
+
+vine video url
+^(https?:\/\/)?((www\.)?vine\.co\/v\/([A-Za-z0-9]){11})
+https://vine.co/v/O1TvFELquFe
+
+
+vimeo video url
+^(https?:\/\/)?((www\.)?vimeo\.com\/([0-9]+){8})
+http://vimeo.com/36612268
+
+vimeo Channels url
+^(https?:\/\/)?((www\.)?vimeo\.com\/channels\/[A-Za-z0-9-]+)
+http://vimeo.com/channels/sencha
+
+soundcloud song play/Download url
+^(https?:\/\/)?((www\.)?soundcloud\.com\/[A-Za-z0-9-]+\/[A-Za-z0-9-]+)
+https://soundcloud.com/smart-khakwani/na-kr-deewana-slow-version-3-3
+
+Twitter tweet Url
+^(https?:\/\/)?((www\.)?twitter\.com\/[A-Za-z0-9-]+\/status\/([\w-]{18})\/?)
+https://twitter.com/coindesk/status/542604759291944960/
+
+
+
+
+Twitter Page Url
+^(https?:\/\/)?((www\.)?twitter\.com\/[A-Za-z0-9-]+\/?)
+https://twitter.com/coindesk
+
+
+Instagram Page
+^(https?:\/\/)?((www\.)?instagram\.com\/[A-Za-z0-9-]+\/?)
+http://instagram.com/MrPimpGoodGame
+
+Instagram Post
+^(https?:\/\/)?((www\.)?instagram\.com\/p\/([\w-]{10})?\/?)
+http://instagram.com/p/v1Tyyom6Og/
+
+Pinterest Follower 3
+^(https?:\/\/)?((www\.)?pinterest\.com\/[A-Za-z0-9-]+(\/following)?\/?)
+https://www.pinterest.com/cesarcarrera737/following/
+
+Pinterest Follower 2
+^(https?:\/\/)?((www\.)?pinterest\.com\/[A-Za-z0-9-]+(\/following)?\/?)
+https://www.pinterest.com/cesarcarrera737/following/
+
+Pinterest Follower 1
+^(https?:\/\/)?((www\.)?pinterest\.com\/[A-Za-z0-9-]+(\/following\/)?)
+https://www.pinterest.com/cesarcarrera737/following
+
+
+Pinterest Post
+^(https?:\/\/)?((www\.)?pinterest\.com\/pin\/([\w-]{18})\/)
+https://www.pinterest.com/pin/411023903463989174/
+
+
+
+Youtube channel
+^(https?:\/\/)?((www\.)?youtube\.com\/channel\/([\w-]{24}))
+https://www.youtube.com/channel/UC4gdWsQXjAxsvFQmomWhk6g
+
+Youtube Video
+^(https?:\/\/)?((www\.)?youtube\.com\/watch\?v=([\w-]{11}))
+https://www.youtube.com/watch?v=HE7zhCB8FWc
+
+Youtube Share Video
+^(https?:\/\/)?((www\.)?youtu\.be\/([\w-]{11}))
+http://youtu.be/HE7zhCB8FWc
+
+
+
+http://facebook.com/pages/video?v=dQw4w9WgXcQ
